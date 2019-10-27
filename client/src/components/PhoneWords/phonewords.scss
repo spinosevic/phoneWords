@@ -1,0 +1,90 @@
+.phoneWords {
+  .phoneButton{
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 20%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:#ABB0B3;
+    box-sizing: border-box;
+    border-color: #424950;
+    border-radius: 6px;
+    border-style: solid;
+    overflow:hidden;
+    position: relative;
+    .btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width:100%;
+    }
+    .btn-container {
+      display: flex;
+      .number {
+        height: 100%;
+        font-size: 50px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .letters {
+        margin-top:4px;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 20px;
+      }
+      .search-btn {
+
+      }
+    }
+
+
+  }
+
+  .grid {
+  }
+  text-align: center;
+  margin: auto;
+
+  .gridContainer{
+    display: inline-block;
+    width: 80%;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  .display {
+    font-family: monospace;
+    line-height: 100px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    min-width: 200px;
+    width: 95%;
+    background-color: #5B8D60;
+  }
+  .wordList{
+    text-align: left;
+    padding:40px;
+  }
+  .search-div {
+    padding: 30px;
+
+    .search-btn {
+      width: 100px;
+      height: 50px;
+      font-size: 13px;
+      border-radius: 6px;
+      background-color: #4498C8;
+      font-weight: 700;
+      color: white;
+    }
+  }
+}

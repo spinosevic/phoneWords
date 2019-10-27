@@ -1,2 +1,5 @@
-export const GET_CUSTOMERS = "GET_CUSTOMERS";
-export const UPDATE_CUSTOMER = "REMOVE_CUSTOMER";
+export const GET_WORDS = "GET_WORDS";
+export const ADD_DIGIT = "ADD_DIGIT";
+
+export const CANCEL = "CANCEL";
+export const CLEAR = "CLEAR";

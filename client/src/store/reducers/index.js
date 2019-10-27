@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
-import customerReducer from './customer';
+import wordsReducer from './words';
 
 export default combineReducers({
-  customers: customerReducer
+  phoneWords: wordsReducer
 })

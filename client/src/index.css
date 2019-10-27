@@ -3,7 +3,3 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-@font-face {
-  font-family: "digital-7_italic-webfont";
-  src: url("./fonts/digital-7_italic-webfont.woff") format("woff"),
-}

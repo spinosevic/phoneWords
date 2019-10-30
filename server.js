@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.post('/words', (req, res) => {
   let phoneInstance = new PhoneWords()
   console.log(req.body.string)
-  let words = phoneInstance.compute_phonewords(req.body.string)
+  let words = phoneInstance.computePhonewords(req.body.string)
   let validWords = []
   words.forEach(word => binarySearch(word, vocabulary) ? validWords.push(word) : null )
   res.json(validWords)
